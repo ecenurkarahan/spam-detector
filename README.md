@@ -11,6 +11,9 @@ the original data.
 testData.txt is a small excerpt from the preprocessed SMS Spam Collection dataset. You will use
 this file to see whether your spam detector works well by comparing the output of the detector to the ground
 truth values in the file.
+
+
+
 Task 1: Count Occurrence
 In this task, you will prompt the user to enter a word, and display how many times the word appeared in
 spam and non-spam messages. The search should be case insensitive.
@@ -29,6 +32,9 @@ $ make
 2
 Please enter a word to search for: terminal
 This word doesn’t occur in the text!
+
+
+
 Task 2: Identifying Most Common Spam Words
 In this task, you will identify the 10 most occurring words in the spam messages. To do this, you may need
 to define a new struct to keep a count of unique words and their occurrences. Once you identify the most
@@ -47,6 +53,8 @@ ur: 142 times
 .
 .
 .
+
+
 Task 3: Writing a Spam Detector
 Your final task is to use the most common 10 words that you identified in Task 2 to label a message as spam
 or ham. You should open the testData.txt file and read the lines just like in the previous parts, but this
